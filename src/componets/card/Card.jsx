@@ -1,9 +1,10 @@
+import profilePicture from "../../assets/react.svg"
 function Card(){
     return(
         <div className="card">
-            <img alt="profile picture" src="https://via.placeholder.com/150"></img>
-            <h2>Leolm</h2>
-            <p>Software Engineer</p>
+            <img className="card-image" alt="profile picture" src={profilePicture}></img>
+            <h2 className="card-title" >Leolm</h2>
+            <p className="card-text">Software Engineer</p>
         </div>
     );
 }
