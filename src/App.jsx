@@ -1,3 +1,4 @@
+import Button from "./componets/button/Button";
 import Card from "./componets/card/Card";
 import Food from "./componets/food/Food";
 import Footer from "./componets/footer/Footer";
@@ -7,6 +8,7 @@ function App() {
     <>
     <Header/>
     <h1>Hello!</h1>
+    <Button></Button>
     <Card></Card>
     <Card></Card>
     <Food/>
